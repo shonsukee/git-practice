@@ -1,4 +1,5 @@
 test fix.
+third fix.
 ## 🧩 質問①
 
 > git fetch origin → git rebase origin/main をすると毎回 force が必要？正しいやり方は？
