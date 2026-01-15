@@ -120,6 +120,25 @@ git switch pr-12
 git branch -D pr-12
 ```
 
+## 🧩 質問⑤
+
+> pushする前に，異なるリモートブランチの更新があった時は？
+
+
+mainにマージコミットを作らない
+```
+git switch main
+git pull --ff-only
+```
+
+featureブランチにマージコミットを作らない
+```
+git switch feat/xx
+git fetch origin
+git rebase origin/main
+```
+
+
 ---
 
 ## 🧭 総まとめ
